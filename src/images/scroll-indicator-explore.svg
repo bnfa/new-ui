@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.58578644,9 L0.514718626,1.92893219 C0.124194334,1.5384079 0.124194334,0.905242918 0.514718626,0.514718626 C0.905242918,0.124194334 1.5384079,0.124194334 1.92893219,0.514718626 L9.48528137,8.07106781 C9.73733886,8.32312529 9.82670998,8.67626312 9.75339475,9 C9.82670998,9.32373688 9.73733886,9.67687471 9.48528137,9.92893219 L1.92893219,17.4852814 C1.5384079,17.8758057 0.905242918,17.8758057 0.514718626,17.4852814 C0.124194334,17.0947571 0.124194334,16.4615921 0.514718626,16.0710678 L7.58578644,9 Z" id="path-1"></path>
+    </defs>
+    <g id="YouSee-More-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-631.000000, -871.000000)">
+            <g id="Header">
+                <g id="arrow-bar" transform="translate(618.000000, 853.000000)">
+                    <g id="scroll-hint-arrow" transform="translate(22.000000, 22.000000) rotate(90.000000) translate(-22.000000, -22.000000) ">
+                        <g id="Colour-/-Black" transform="translate(18.000000, 13.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="ui-chevron" fill="#484848" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
