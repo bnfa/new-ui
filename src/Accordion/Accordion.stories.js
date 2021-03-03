@@ -2,9 +2,7 @@ import React from "react";
 import Accordion from "./index.js";
 import "@youseedk/dna";
 
-import { withKnobs, object } from "@storybook/addon-knobs";
-
-export default { title: "Accordion", decorators: [withKnobs] };
+export default { title: "Accordion" };
 
 const items = [
   { header: "Header", text: "text" },
@@ -16,7 +14,5 @@ const items = [
 ];
 
 export const accordion = () => {
-  const lable = "Items";
-  const value = object(lable, items);
-  return <Accordion items={value}></Accordion>;
+   return <Accordion items={items}></Accordion>;
 };

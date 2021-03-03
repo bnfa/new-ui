@@ -1,0 +1,44 @@
+.spotbox {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 100%;
+
+    @media (max-width: 720px) {
+      flex-direction: column;
+    }
+  }
+
+  &__media {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 44.5%;
+    height: 300px;
+  }
+
+  &__image {
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  &__content {
+    width: 50%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  &__content-header {
+    margin-bottom: 20px;
+  }
+
+  &__rich-text {
+    margin-bottom: 20px;
+  }
+}
